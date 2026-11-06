@@ -1,9 +1,21 @@
 # Futebolísticos ⚽
 
-Site acadêmico sobre futebol, desenvolvido em HTML e CSS, com páginas sobre história, clubes, grandes jogadores, competições, títulos e cultura das torcidas.
+Site acadêmico sobre futebol, desenvolvido em HTML e CSS, com páginas dedicadas à história, clubes, grandes jogadores, competições, títulos, torcida e atualidades.
 
-## Publicação
+## Como abrir
 
-O site é publicado pelo GitHub Pages. A página inicial é `index.html`.
+Abra `index.html` no navegador ou publique o conteúdo deste repositório pelo GitHub Pages.
 
-O formulário é uma demonstração acadêmica: **não coleta nem armazena dados pessoais**.
+## Estrutura
+
+- `index.html`: página inicial
+- `introducao.html`: tela de boas-vindas
+- `css/`: estilos da aplicação
+- `imagens/`: imagens do site
+- Outras páginas `.html`: conteúdos temáticos
+
+## GitHub Pages
+
+Em **Settings > Pages > Build and deployment**, selecione **Deploy from a branch** e escolha **main** / **/(root)**.
+
+O formulário é apenas uma demonstração acadêmica: ele **não envia nem armazena** dados, e não deve ser usado para cadastrar pessoas reais.

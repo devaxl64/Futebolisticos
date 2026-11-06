@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebolisticos.com</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css/formato.css">
+    
+    <header>
+    <h1>Formulário para cadastro na Peneira do Futebolisticos</h1>
+    <nav>
+        <a href="index.html">Início do futebol</a>
+        <a href="titulos_conquistas.html">Principais títulos e conquistas</a>
+        <a href="principais_competicoes.html">Principais Competições</a>
+        <a href="TorcidaeCultura.html">Torcida e Cultura</a>
+        <a href="formulario.html">Formulário</a>
+        <a href="historia.html">História </a>
+        <a href="internacionais.html">Principais Times Internacionais</a>
+        <a href="grandes-jogadores.html">Grandes Jogadores</a>
+        <a href="tecnologia.html">Tecnologia no futebol</a>
+        <a href="futebol_atualmente.html">Futebol na Atualidade</a> 
+    </nav>
+    </header>
+
+    <p style="padding: 12px; color: #7a271a; font-weight: bold;">Demonstração acadêmica: não informe dados pessoais reais. Este formulário não envia nem armazena informações.</p>
+    <fieldset>
+        <fieldset>
+    
+
+   <fieldset>
+    <legend><b>Dados do Atleta</b> </legend>
+    <form action="confirma.html" onsubmit="event.preventDefault(); window.location.href = this.action;">			
+        Nome completo: <input type="text" name="nomecompleto" required><br><br>
+        Data de nascimento: <input type="date" name="datanascimento" required><br><br>        
+        Idade: <input type="number" id="idade" name="idade" ><br><br>
+        Sexo: 	<input type="radio" required name="sexo" value="M" checked>Masculino
+				<input type="radio" required name="sexo" value="F">Feminino <br><br>
+         <label for="tipocontrato">Cidade:</label>
+
+        <select name="cidade" id="cidade">
+        <option value="branco"></option>
+        <option value="sp">São Paulo</option>
+        <option value="scs">São Caetano do Sul</option>
+        <option value="sbc">São Bernardo do Campo</option>
+        <option value="sa">Santo André</option>
+        <option value="gru">Guarulhos</option>
+        <option value="oz">Osasco</option>
+        <option value="maua">Mauá</option>
+        <option value="taboão">Taboão da Serra</option>
+        </select> <br><br>
+         Telefone:
+		DDD   	<input 	type="text"	name="DDD" size="2"	maxlength="2">						
+		Número	<input 	type="text"	name="numero" size="10"	maxlength="9"><br><br>
+      <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required><br><br>
+        Foto:	<input 	type="file"	name="foto" size="40"><br>
+    </fieldset>
+
+        <br>
+        
+        <fieldset>
+            <legend><b>Responsável e Dados de Contato (caso seja menor de idade)</b></legend>
+
+        Nome do Responsável: <input type="text" name="parentesco" ><br><br>
+        Grau de parentesco: <input type="text" name="parentesco" ><br><br>
+        Telefone:
+		DDD   	<input 	type="text"	name="DDD" size="2"	maxlength="2">						
+		Número	<input 	type="text"	name="numero" size="10"	maxlength="9"><br><br>
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email"><br>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><b>Informações físicas</b></legend>
+       
+        <label for="tipocontrato">Altura (cm):</label>
+            <input type="number" id="altura" name="altura"><br><br>
+        <label for="tipocontrato">Peso (kg):</label>
+            <input type="number" id="peso" name="peso"><br><br>
+
+        Pé dominante: 	<input type="radio" required name="dominante" value="D" checked>Direito
+				<input type="radio" required name="dominante" value="E">Esquerdo 
+                <input type="radio" required name="dominante" value="AD">Ambidestro<br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Perfil futebolistico</b></legend>
+
+             <label for="posicaop">Posição Principal:</label>
+
+        <select name="posicaop" id="posicaop">
+        <option value="branco"></option>
+        <option value="gol">Goleiro</option>
+        <option value="zag">Zagueiro</option>
+        <option value="late">Lateral-esquerdo</option>
+        <option value="latd">Lateral-direito</option>
+        <option value="vol">Volante</option>
+        <option value="meia">Meia</option>
+        <option value="ponta">Ponta</option>
+        <option value="ata">Atacante</option>
+        </select> <br><br>
+
+         <label for="posicaos">Posição Secundaria:</label>
+
+        <select name="posicaos" id="posicaos">
+        <option value="branco"></option>
+        <option value="gol">Goleiro</option>
+        <option value="zag">Zagueiro</option>
+        <option value="late">Lateral-esquerdo</option>
+        <option value="latd">Lateral-direito</option>
+        <option value="vol">Volante</option>
+        <option value="meia">Meia</option>
+        <option value="ponta">Ponta</option>
+        <option value="ata">Atacante</option>
+        </select> <br><br>
+
+
+                
+        <!--Usado textarea para aumentar o tamanho da caixinha de texto.-->
+        <label for="descricao">Fale um pouco sobre você:</label> <br>
+        <textarea id="descricao" name="descricao" rows="8" cols="100"></textarea required> <br>
+        
+
+        </fieldset>
+
+    
+        Receber Atualizações por E-mail? 
+        <input type="checkbox" name="atualiza"> <br>
+        
+        <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
