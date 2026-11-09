@@ -4,7 +4,7 @@
 
 ### 🌐 Acesse o site
 
-**[Visualizar o Futebolísticos no GitHub Pages](https://devaxl64.github.io/Futebolisticos/)**
+**[Visualizar o Futebolísticos no GitHub Pages](https://devaxl64.github.io/Futebolisticos/introducao.html)**
 
 ## Objetivo
 
